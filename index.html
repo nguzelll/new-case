@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Языковая школа Let's speak</title>
+    <link rel="stylesheet" href="./css/iconsFont.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="container">
+ <h1 class="visually-hidden">Главная страница языковой школы Let's speak</h1>
+
+    <header>
+        <img src="./img/svg/logo.svg" width="160" height = "36" alt="Языковая школа Let's speak, логотип" class="logo">
+        
+        <form method="GET" action="#">
+            <input type="search" name="search" id="search" placeholder="Поиск..." class="search-field">
+        </form>
+
+        <div class="profile" data-text="О">
+            <a href="#" class="profile-name">Опознанный Енот</a>
+
+            <button type="button" class="menu-btn">
+                <span class="visually-hidden">Открыть/закрыть меню профиля</span> 
+                <svg width="12" height="6" viewbox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 6L0 0H12L6 6Z" fill="#576BCC"/>
+                </svg>
+            </button>
+            
+            <button type="button" class="notice-btn">
+                <span class="visually-hidden">Посмотреть уведомления</span>
+                              
+            </button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="checked"><a href="#!" class="_icon-cabinet">Кабинет ученика</a></li>
+            <li><a href="#!" class="_icon-class">Учебный класс</a></li>
+            <li><a href="#!" class="_icon-manual">Методичка</a></li>
+            <li><a href="#!" class="_icon-homework">Домашняя работа</a></li>
+            <li><a href="#!" class="_icon-exams">Экзамены</a></li>
+            <li class="tools" ><a href="#!" class="_icon-tools">Настройки</a></li>
+        </ul>
+    </nav> 
+
+    <main>
+        <div class="main-container">
+            
+           <div class="slider">
+            <!-- Slider main container -->
+            <div class="swiper-container ">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="container-img">
+                            <img src="./img/slider-img.jpg" alt="Бигбен на фоне облаков">
+                        </div>
+                        <div class="slider-text">
+                            <p class="slider-title">
+                                «Бифитер», «Кокни», «Даблдекер»...
+                            </p>
+                            <p class="slider-desc">
+                                Пройдите тест и узнайте насколько хорошо вы знакомы
+                                с жизнью в Лондоне
+                            </p>
+                            <a href="#" class="slider-on-btn">
+                                Пройти тест ➞
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                       <div class="container-img">
+                            <img src="./img/slider-img.jpg" alt="Бигбен на фоне облаков">
+                        </div> 
+                    </div>
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-btn-prev slider-btn">
+                        <span class="visually-hidden">Предыдущий слайд</span>
+                </div>
+
+                <div class="swiper-btn-next slider-btn">
+                        <span class="visually-hidden">Следующий слайд</span>
+                </div>
+           
+           
+                
+            
+            
+           </div>
+        </div>
+
+           <section class="offers">
+                <div class="speak-club">
+                    <h2>Английский завтрак</h2>
+                    <p>Разговорный клуб</p>
+                    <p class="time">10:00 — 11:00 (ПН—ПТ)</p>
+                    <a href="#">Записаться ➞</a>
+                </div>
+                <div class="summer-in-london">
+                    <h2>Лето в Лондоне</h2>
+                    <p>Месяц экскурсий и практики</p>
+                    <p class="time">10 июня — 3 июля</p>
+                    <a href="#">Отправиться ➞</a>
+                </div>
+                <div class="other-lang">
+                    <h2>Надоел английский?</h2>
+                    <p>С нами можно выучить
+                    и другие языки</p>
+                    <a href="#">Открыть список ➞</a>
+                </div>
+           </section>
+
+           <section class="videocours">
+                <div class="video-lesson">
+                <img src="./img/video.png" width="540" height="300" alt="Видео занятие номер 9">
+                </div>
+
+                <div class="swiper-video-cours ">
+                    <!-- Additional required wrapper -->
+                    <div class="swipe-wrapper">
+                        <!-- Slides -->
+                        <div class="swipe-slide">
+                           
+                                <button class="play-btn" type="button"><span class="visually-hidden">Пуск/Стоп</span></button>
+                                <h4>Урок 8</h4>
+                                <p>Времена глаголов</p>
+                        
+                        </div>
+                        <div class="swipe-slide">
+                            <button class="play-btn" type="button">
+                                <span class="visually-hidden">Пуск/Стоп</span>
+                            </button>
+                            <h4>Урок 9</h4>
+                            <p>Неправильные глаголы</p>
+                        </div>
+                        <div class="swipe-slide">
+                            <button class="play-btn" type="button">
+                                <span class="visually-hidden">Пуск/Стоп</span>
+                            </button>
+                            <h4>Урок 10</h4>
+                            <p>Present Simple</p>
+                        </div>
+                        <div class="swipe-slide">
+                            <button class="play-btn" type="button">
+                                <span class="visually-hidden">Пуск/Стоп</span>
+                            </button>
+                            <h4>Урок 11</h4>
+                            <p>Past Simple</p>
+                        </div>
+                        <div class="swipe-slide">
+                            <button class="play-btn" type="button">
+                                <span class="visually-hidden">Пуск/Стоп</span>
+                            </button>
+                            <h4>Урок 12</h4>
+                            <p>Present Continuous</p>
+                        </div>
+                    </div>
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+           </section>
+
+           <section class="contacts">
+            <ul class="contact-list">
+                <li><h2>Контакты</h2></li>
+                <!-- 1 -->
+                <li>
+                    <a href="#" class="contact-name">Неопознанный Енот</a>
+                    <p class="contact-lang">English A1</p>
+                </li>
+                <!-- 2 -->
+                <li>
+                    <a href="#" class="contact-name">Неопознанный Енот 2</a>
+                    <p class="contact-lang">Español 2</p>
+                </li>
+                <!-- 3 -->
+                <li>
+                    <a href="#" class="contact-name">Неопознанный Енот 3</a>
+                    <p class="contact-lang">日本語</p>
+                </li>
+                <!-- 4 -->
+                <li>
+                    <a href="#" class="contact-name">Неопознанный Енот 4</a>
+                    <p class="contact-lang">English B2</p>
+                </li>
+                <!-- 5 -->
+                <li>
+                    <a href="#" class="contact-name">Неопознанный Енот 5</a>
+                    <p class="contact-lang">Le Français</p>
+                </li>
+                <!-- 6 -->
+                <li>
+                    <a href="#" class="contact-name">Неопознанный Енот 6</a>
+                    <p class="contact-lang">Español 1</p>
+                </li>
+                <!-- 7 -->
+                <li>
+                    <a href="#" class="contact-name">Неопознанный Енот 7</a>
+                    <p class="contact-lang">Italiano</p>
+                </li>
+            </ul>
+           </section>
+        </div>
+    </main>
+
+    <footer class="footer-container">
+        <p class="copyright">
+            © 2020 
+        </p>
+        <p class="name">
+            Let’s Speak, языковая школа
+        </p>
+        <p class="creator">
+            Сайт создан в HTML Academy
+        </p>
+    </footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>

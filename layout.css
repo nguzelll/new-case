@@ -1,0 +1,45 @@
+body,
+nav,
+header,
+footer,
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(200px, 280px) minmax(300px, 1fr);
+  grid-template-rows: 10vh 1fr 10vh;
+
+  grid-template-areas:
+    "header header"
+    "nav    main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+  width: 100%;
+  background-color: aqua;
+}
+
+nav {
+  grid-area: nav;
+  background-color: aqua;
+}
+
+main {
+  grid-area: main;
+  background-color: aqua;
+}
+
+footer {
+  grid-area: footer;
+  width: 100%;
+  background-color: aqua;
+}
